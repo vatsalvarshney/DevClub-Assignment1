@@ -1,10 +1,151 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>
-			Hello World
-		</title>
-	</head>
-	<body>
-		Write your code for the submission by editing this file
-	</body>
+    <head>
+        <title>Covid Guide</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <a name='home'></a>
+        <div class='home'>
+            <div class='navbar'>
+                <a href='#home' class='nav'>Home</a>
+                <a href='#tips' class='nav'>Tips</a>
+                <a href='#symptoms' class='nav'>Symptoms & Advice</a>
+                <a href='#faqs' class='nav'>FAQs</a>
+                <a href='#yt' class='nav'>YouTube</a>
+            </div>
+            <img src='coronavirus.jfif' width=100%>
+            <div class='heading1'>CoViD-19!</div>
+            <div class='heading2'>Worried about the virus? Overwhelmed by the amount <br> of information and resources regarding it?</div>
+            <div class='heading3'>Here's your one-stop solution!</div>
+        </div>
+        <a name='tips'></a>
+        <div class='tips'>
+            <div class='tipsheading'><b>How to protect myself?</b></div>
+            <div class='tipbox'>
+                <div class='lefttext'>Wear Face Mask</div>
+                <div class='rightimg'><img src='mask.png' width=150px></div>
+            </div>
+            <div class='tipbox'>
+                <div class='righttext'>Social Distancing</div>
+                <div class='leftimg'><img src='social-distancing.png' width=150px></div>
+            </div>
+            <div class='tipbox'>
+                <div class='lefttext'>Wash Hands Regularly</div>
+                <div class='rightimg'><img src='wash-hand.png' width=150px></div>
+            </div>
+            <div class='tipbox'>
+                <div class='leftimg'><img src='vaccine.png' width=150px></div>
+                <div class='righttext'>Get Vaccinated</div>
+            </div>
+        </div>
+        <a name='symptoms'></a>
+        <div class='symptoms'>
+            <div class='symptomsheading'><b>How do I know if I'm infected?</b></div>
+            <div class='symp1'>Look for the following symptoms:</div>
+            <div>
+                <table border>
+                    <tr>
+                        <th>Symptom</th>
+                        <th>Severity</th>
+                        <th>Commonness</th>
+                    </tr>
+                    <tr>
+                        <td>Fever</td>
+                        <td>Mild/Moderate</td>
+                        <td>Common</td>
+                    </tr>
+                    <tr>
+                        <td>Cough</td>
+                        <td>Mild/Moderate</td>
+                        <td>Common</td>
+                    </tr>
+                    <tr>
+                        <td>Loss of Taste and Smell</td>
+                        <td>Mild</td>
+                        <td>Common</td>
+                    </tr>
+                    <tr>
+                        <td>Tiredness</td>
+                        <td>Mild</td>
+                        <td>Common</td>
+                    </tr>
+                    <tr>
+                        <td>Sore Throat</td>
+                        <td>Mild</td>
+                        <td>Less common</td>
+                    </tr>
+                    <tr>
+                        <td>Shortness of Breath</td>
+                        <td>Moderate/Serious</td>
+                        <td>Less common</td>
+                    </tr>
+                </table>
+            </div>
+            <div class='symp2'>If you feel any of the above symptoms, get a covid test done and self isolate.</div>
+            <div class='advice'>
+                <div style='padding: 20px 20px 0px 30px'>To treat the symptoms, you should:</div>
+                <ul style='padding: 0px 20px 0px 60px'>
+                    <li>Stay <b>hydrated</b></li>
+                    <li>Take <b>medecines</b> only when prescribed by a doctor</li>
+                    <li><b>Monitor</b> body temperature and oxygen level regularly</li>
+                </ul>
+            </div>
+        </div>
+        <a name='faqs'></a>
+        <div class='faqs'>
+            <div class='faqsheading'><b>FAQs</b></div>
+            <div class='quesbox'>
+                <div class='ques'><b><em>What is COVID-19?</em></b></div>
+                <div class='ans'>COVID-19 is a disease caused by a virus called SARS-CoV-2. 
+                    Most people with COVID-19 have mild symptoms, but some people can become 
+                    severely ill. Although most people with COVID-19 get better within weeks 
+                    of illness, some people experience post-COVID conditions. Post COVID 
+                    conditions are a wide range of new, returning, or ongoing health problems 
+                    people can experience more than four weeks after first being infected with 
+                    the virus that causes COVID-19. Older people and those who have certain 
+                    underlying medical conditions are more likely to get severely ill from 
+                    COVID-19. Vaccines against COVID-19 are safe and effective.</div>
+            </div>
+            <div class='quesbox'>
+                <div class='ques'><b><em>Should I use soap and water or hand sanitizer to protect myself?</em></b></div>
+                <div class='ans'>Handwashing is one of the best ways to protect yourself and 
+                    your family from getting sick. Wash your hands often with soap and water 
+                    for at least 20 seconds, especially after blowing your nose, coughing, or 
+                    sneezing: going to the bathroom; and before eating or preparing food. 
+                    If soap and water are not readily available, use an alcohol-based hand 
+                    sanitizer with at least 60% alcohol.</div>
+            </div>
+            <div class='quesbox'>
+                <div class='ques'><b><em>What are the symptoms and complications that COVID-19 can cause?</em></b></div>
+                <div class='ans'>People with COVID-19 have reported a wide range of symptoms 
+                    - from mild symptoms to severe illness. Symptoms may appear 2-14 days after 
+                    exposure to the virus. If you have fever, cough, or other symptoms, you might 
+                    have COVID-19.</div>
+            </div>
+            <div class='quesbox'>
+                <div class='ques'><b><em>What is a Variant? How to protect against new variants?</em></b></div>
+                <div class='ans'>All viruses, including SARS-CoV-2, change over time by mutations. 
+                    The resulting virus is mostly identical to the parent virus but with subtle changes. 
+                    Each such mutated virus is called a variant. Most changes have little to no impact 
+                    on the virus’s properties. However, some changes may affect the virus’s properties, 
+                    such as how easily it spreads, the disease severity, or the performance of vaccines. 
+                    To protect against a new variant, the same precautions must be followed.</div>
+            </div>
+        </div>
+        <a name='yt'></a>
+        <div class='yt'>
+            <div class='ytheading'><b>A Useful YouTube Video</b></div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qHksVwOrpbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class='contact'>
+            <div class='madeby'>Made by <b>Vatsal Varshney</b></div>
+            <a href='https://www.github.com/vatsalvarshney' target='_blank' class='link'><img src='github icon (3).png' width=40px></a>
+            <a href='https://www.linkedin.com/in/vatsal-varshney-2b262722a/' target='_blank' class='link'><img src='linkedin icon new.png' width=40px></a>
+            <a href='mailto:ee3210700@iitd.ac.in?subject=Query%20regarding%20CovidGuide&body=Hey!%20I%20visited%20your%20website%20and%20had%20a%20query...' class='link'><img src='mail icon.png' width=40px></a>
+            <a href='https://api.whatsapp.com/send/?phone=917599005124' target='_blank' class='link'><img src='whatsapp icon.png' width=40px></a>
+        </div>
+    </body>
 </html>
