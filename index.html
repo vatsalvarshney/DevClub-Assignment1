@@ -5,6 +5,8 @@
         <link href="style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="coronavirus-crossed.png" rel="icon" type="image/png">
+        <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <a name='home'></a>
@@ -15,28 +17,29 @@
                 <a href='#symptoms' class='nav'>Symptoms & Advice</a>
                 <a href='#faqs' class='nav'>FAQs</a>
                 <a href='#yt' class='nav'>YouTube</a>
+                <a href='#hospitals' class='nav'>Emergency</a>
             </div>
             <img src='coronavirus.jfif' width=100%>
-            <div class='heading1'>CoViD-19!</div>
-            <div class='heading2'>Worried about the virus? Overwhelmed by the amount <br> of information and resources regarding it?</div>
-            <div class='heading3'>Here's your one-stop solution!</div>
+            <div class='heading1' data-aos="zoom-in" data-aos-duration="1000">CoViD-19!</div>
+            <div class='heading2' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1000">Worried about the virus? Overwhelmed by the amount <br> of information and resources regarding it?</div>
+            <div class='heading3' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2000">Here's your one-stop solution!</div>
         </div>
         <a name='tips'></a>
         <div class='tips'>
-            <div class='tipsheading'><b>How to protect myself?</b></div>
-            <div class='tipbox'>
+            <div class='tipsheading' data-aos="zoom-in"><b>How to protect myself?</b></div>
+            <div class='tipbox' data-aos="fade-left">
                 <div class='lefttext'>Wear Face Mask</div>
                 <div class='rightimg'><img src='mask.png' width=150px></div>
             </div>
-            <div class='tipbox'>
+            <div class='tipbox' data-aos="fade-right">
                 <div class='righttext'>Social Distancing</div>
                 <div class='leftimg'><img src='social-distancing.png' width=150px></div>
             </div>
-            <div class='tipbox'>
+            <div class='tipbox' data-aos="fade-left">
                 <div class='lefttext'>Wash Hands Regularly</div>
                 <div class='rightimg'><img src='wash-hand.png' width=150px></div>
             </div>
-            <div class='tipbox'>
+            <div class='tipbox' data-aos="fade-right">
                 <div class='leftimg'><img src='vaccine.png' width=150px></div>
                 <div class='righttext'>Get Vaccinated</div>
             </div>
@@ -140,6 +143,12 @@
             <div class='ytheading'><b>A Useful YouTube Video</b></div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/qHksVwOrpbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <a name="hospitals"></a>
+        <div class="hospitals">
+            <div class="hospheading"><b>Emergency?</b></div>
+            <div class="hosptext">Follow this map to hospitals near IIT Delhi</div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d27461.012632367376!2d77.17941582322499!3d28.54713429392332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospital!5e0!3m2!1sen!2sin!4v1644419981350!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
         <div class='contact'>
             <div class='madeby'>Made by <b>Vatsal Varshney</b></div>
             <a href='https://www.github.com/vatsalvarshney' target='_blank' class='link'><img src='github icon.png' width=40px></a>
@@ -147,5 +156,9 @@
             <a href='mailto:ee3210700@iitd.ac.in?subject=Query%20regarding%20CovidGuide&body=Hey!%20I%20visited%20your%20website%20and%20had%20a%20query...' class='link'><img src='mail icon.png' width=40px></a>
             <a href='https://api.whatsapp.com/send/?phone=917599005124' target='_blank' class='link'><img src='whatsapp icon.png' width=40px></a>
         </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
